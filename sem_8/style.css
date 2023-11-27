@@ -21,14 +21,13 @@
 .top-tiles {
   display: flex;
   flex-direction: row;
-  margin: 100px 320px 100px 320px;
+  width: 1170px;
+  margin: 100px auto;
+  gap: 30px;
 }
 
 .top-tiles-item {
   border: 1px solid #000;
-  width: 381px;
-  height: 291px;
-  margin-right: 30px;
 }
 
 .top-tiles-item-logo {

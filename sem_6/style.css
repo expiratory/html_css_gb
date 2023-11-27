@@ -21,8 +21,9 @@
 .top {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 45px 375px 0 375px;
   align-items: center;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 .top-left {
@@ -89,9 +90,10 @@
 .body-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 375px 0 375px;
   padding: 89px 0 162px 0;
   align-items: center;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 .body-content-left{
@@ -175,8 +177,9 @@
 .footer-logos {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  margin: 0 375px 96px 375px;
   padding: 97px 0 0 0;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 .footer-logos-logo {
