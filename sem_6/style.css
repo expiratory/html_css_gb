@@ -18,7 +18,7 @@
   src: url("fonts/gilroy-semibold.ttf") format('truetype');
 }
 
-.top {
+.header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -26,53 +26,40 @@
   margin: 0 auto;
 }
 
-.top-left {
+.header-left {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 14px;
 }
 
-.top-left-logo {
+.header-left-logo {
   width: 35px;
   height: 40px;
   flex-shrink: 0;
-  margin-right: 14px;
 }
 
-.company-name-grow {
-  color: #000;
-  font-family: Gilroy-Bold;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.header-left-text {
+  width: 88px;
+  height: 30px;
 }
 
-.company-name-be {
-  color: #F25822;
-  font-family: Gilroy-Bold;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.top-nav-right {
+.header-nav-right {
   display: flex;
   flex-direction: row;
   justify-self: end;
 }
 
-.top-nav-right ul {
+.header-nav-right ul {
   list-style: none;
 }
 
-.top-nav-right li {
+.header-nav-right li {
   margin-right: 20px;
   display: inline-block;
 }
 
-.top-nav-right a {
+.header-nav-right a {
   text-decoration: none;
   color: #000;
   font-family: Gilroy-Medium;
@@ -82,7 +69,7 @@
   line-height: normal;
 }
 
-.top-nav-right a.top-nav-right-first-orange {
+.header-nav-right a.header-nav-right-first-orange {
   color: #F25822;
   font-family: Gilroy-SemiBold;
 }
