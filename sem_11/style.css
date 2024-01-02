@@ -717,6 +717,14 @@ font-family: 'Lato', sans-serif;
     padding: 64px 0 109px 0;
   }
 
+  .footer-middle-right form input {
+    width: 223px;
+  }
+
+  .footer-middle-right form button {
+    width: 95px;
+  }
+
   .footer-bottom {
     height: 143px;
     flex-direction: column-reverse;
